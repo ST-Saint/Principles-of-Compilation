@@ -41,18 +41,18 @@
 
 %%
 
-E : E '+' T { $$ = $1 + $3;} // cout << "reduce E -> E + T"  << endl ; $$ = $1 + $3; cout << YYNTOKENS << endl ; }
-| E '-' T { $$ = $1 - $3;} // cout << "reduce E -> E - T" << endl ; $$ = $1 - $3 ;  cout << "E = E - T = " << $$ << endl ;}
-| T       { $$ = $1;} // cout << "reduce E -> T" << endl ; $$ = $1 ;  cout << "E = T = " << $$ << endl ;}
+E : E '+' T { $$ = $1 + $3 ;}
+  | E '-' T { $$ = $1 - $3 ;}
+  | T       { $$ = $1      ;}
   ;
 
-T : T '*' F {$$ = $1 * $3;} // cout << "reduce T -> T * F" << endl ; $$ = $1 * $3 ;  cout << "T = T * F = " << $$ << endl ;}
-| T '/' F { $$ = $1 / $3;} // cout << "reduce T -> T / F" << endl ; $$ = $1 / $3 ;  cout << "T = T / F = " << $$ << endl ;}
-| F       { $$ = $1;} // cout << "reduce T -> F" << endl ; $$ = $1 ;  cout << "T = F = " << $$ << endl ;}
+T : T '*' F {$$ = $1 * $3  ;}
+  | T '/' F { $$ = $1 / $3 ;}
+  | F       { $$ = $1      ;}
   ;
 
-F : '(' E ')' { $$ = $2;} // cout << "reduce F -> (E)" << endl ; $$ = $2 ;  cout << "F = (E) = " << $$ << endl ;}
-| CONSTANT { $$ = $1;} // cout << "reduce F -> num" << endl ; $$ = $1;  cout << "F = " <<$$ << endl ;}
+F : '(' E ')' { $$ = $2    ;}
+  | CONSTANT  { $$ = $1    ;}
   ;
 
 %%
