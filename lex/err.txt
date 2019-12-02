@@ -1,0 +1,9 @@
+Error: Unterminated string, in line 5, column 2:
+"test0
+
+Error: Bad identifier format, in line 10, column 6:
+03f
+
+
+Unterminated comment starting at line: 20, column: 0
+

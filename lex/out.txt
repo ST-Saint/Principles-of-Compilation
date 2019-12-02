@@ -1,0 +1,168 @@
+Line comment at line 1:
+ // #include<stdio.h>
+
+Reserved word at line 3, column 0:
+int
+
+Identifier at line 3, column 4:
+main
+
+Operator at line 3, column 8:
+(
+
+Operator at line 3, column 9:
+)
+
+Operator at line 4, column 0:
+{
+
+Reserved word at line 6, column 2:
+char
+
+Identifier at line 6, column 7:
+s1
+
+Operator at line 6, column 9:
+[
+
+Operator at line 6, column 10:
+]
+
+Operator at line 6, column 12:
+=
+
+String at line 6, column 14:
+"hello\
+world"
+
+Operator at line 7, column 28:
+;
+
+Line comment at line 7:
+ // test1\
+       test2
+
+Reserved word at line 9, column 2:
+char
+
+Identifier at line 9, column 7:
+c
+
+Operator at line 9, column 9:
+=
+
+Character at line 9, column 11:
+'\0337'
+
+Operator at line 9, column 18:
+;
+
+Line comment at line 9:
+ // test3
+
+Reserved word at line 10, column 2:
+int
+
+Operator at line 10, column 6:
+;
+
+Line comment at line 11:
+ // printf("%s\n", s1);
+
+Identifier at line 12, column 2:
+printf
+
+Operator at line 12, column 8:
+(
+
+String at line 12, column 9:
+"%c\n"
+
+Operator at line 12, column 15:
+,
+
+Identifier at line 12, column 17:
+c
+
+Operator at line 12, column 18:
+)
+
+Operator at line 12, column 19:
+;
+
+Reserved word at line 13, column 2:
+int
+
+Identifier at line 13, column 6:
+a
+
+Operator at line 13, column 8:
+=
+
+Binary integer at line 13, column 10:
+0b111111u
+
+Operator at line 13, column 19:
+;
+
+Reserved word at line 14, column 2:
+double
+
+Identifier at line 14, column 9:
+b
+
+Operator at line 14, column 11:
+=
+
+Decimal float at line 14, column 13:
+12.88e15l
+
+Operator at line 14, column 22:
+;
+
+Identifier at line 15, column 2:
+printf
+
+Operator at line 15, column 8:
+(
+
+String at line 15, column 9:
+"%d"
+
+Operator at line 15, column 13:
+,
+
+Identifier at line 15, column 15:
+a
+
+Operator at line 15, column 16:
+)
+
+Operator at line 15, column 17:
+;
+
+Multi-line comment at line: 16, column: 2
+/* test */
+
+Reserved word at line 17, column 2:
+return
+
+Octonary integer at line 17, column 9:
+0
+
+Operator at line 17, column 10:
+;
+
+Operator at line 18, column 0:
+}
+
+Multi-line comment at line: 20, column: 0
+/*
+int main()<%
+  int a[5] = {1,2,3};
+int b = a<:2:>;
+// cout << a<:2:>;
+//_Imaginary a;
+%>
+
+# The number of lines = 26, of words = 20, of chars = 365 
